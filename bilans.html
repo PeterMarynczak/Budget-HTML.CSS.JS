@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+	<meta charset="utf-8">
+	<title>White Book</title>
+	<meta name="description" content="Dzięki aplikacji White Book prowadź i kontroluj budżet osobisty">
+	<meta name="keywords" content="budżet, bilans, finanse, oszczędzanie, przychody, wydatki">
+	<meta name="author" content="Piotr Maryńczak">
+	
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge">
+    
+    <link rel="stylesheet" href="main.css">   
+    <link type="text/css" rel="stylesheet" href="style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+	
+	<!--[if lt IE 9]>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<![endif]-->
+	
+</head>
+
+<body>
+	
+	
+    <div id="container_menu">
+            
+        <header class="head_style">
+            
+            <div id="logo_min"><img src="img/logo_min.png"/></div>
+
+            <div id="main_menu_style">
+                <h2 style="margin-left: 250px">BILANS</h2>  
+            </div>
+            
+            <div id="button-log-off">
+                <a href="#" id="logout"><i class="icon-off"></i>Log out</a>
+            </div>
+            <div style="clear: both"></div>
+	    </header>
+            
+    <main>
+        
+        <article>
+            
+            <form action="order.php" method="post" enctype="multipart/form-data">
+        
+            <div class="bottom">
+
+                <div class="container clearfix" style="border: 2px solid #ddd; margin-top: 2px; margin-bottom: 2px">
+                    <div class="income">
+                        <div class="income__title">Przychody</div>
+
+                        <div class="income__list">
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="bilans">
+				
+					<label for="kategoria"> Wybierz okres </label>
+					<select class="select-css" id="kategoria" name="kategoria">
+					
+						<option value="bm" selected>bierzący miesiąc</option>
+						<option value="pm" >poprzedni miesiąc</option>
+						<option value="br">bierzący rok</option>
+						<option value="ns">niestandarowy</option>
+					
+					</select>
+                        
+                </div>
+
+                    <div class="expenses">
+                        <div class="expenses__title">Wydatki</div>
+
+                        <div class="expenses__list">
+
+                        </div>
+                    </div>
+                    <div style="clear: both"></div>
+                </div>
+            
+            </div>
+                
+                <input id="reportrange" class="text_field" type="text" name="datefilter" value="" style="margin-left: 400px"/>
+                
+                <script src="date_range.js" type="text/javascript"></script>
+                
+        </form>
+    
+        </article>
+            
+	</main>
+
+        
+</body>
+</html>

@@ -1,0 +1,359 @@
+body
+{
+	/* Background pattern from subtlepatterns.com */
+	background-image: url("img/mamba.png");
+    font-family: 'Open Sans', sans-serif; 
+	font-size: 20px;
+}
+
+.head_style
+{
+    border: 2px solid #008B8B;
+    border-radius: .5em;
+}
+
+#container_menu
+{
+    width: 800px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkslategray;
+	border-radius: .5em;
+}
+
+#main_menu_style > h2
+{
+    float: left;
+    color: #d9d9d9;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5); 
+	font-size: 30px;
+	font-weight: 400;
+    margin-top: 10px;
+    margin-left: 150px;
+	margin-bottom: 10px;
+	text-align: center;
+    padding: 3px;
+}
+
+#button-log-off > a
+{
+    float:right;
+    width: 100px;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    background-color: darkslategray;
+    color: #d9d9d9;
+    padding: 3px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#button-log-off > a:hover
+{
+    background-color: cadetblue;
+    color: darkslategray; 
+}
+
+#logo
+{
+    margin-left: 80px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    height: 100px;
+}
+
+#logo_min
+{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+#container
+{
+	background-color: darkslategray;
+	width: 350px;
+    height: 400px;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+
+}
+
+#info
+{
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+}
+
+.tile1
+{
+   float: left;
+   margin-left: 110px;
+   margin-top: 30px;
+   width: 230px; 
+   height: 142px;
+   background-color: #3095d3;
+   text-align: center;
+   border: 2px solid white;
+}
+
+.tile1:hover
+{
+    background-color: #2084c2;
+}
+
+.tile2
+{
+   float: left;
+   margin-left: 110px;
+   margin-top: 20px;
+   width: 230px; 
+   height: 142px;
+   background-color: #666666;
+   text-align: center;
+   border: 2px solid white;
+}
+
+.tile2:hover
+{
+    background-color: #555555;
+}
+
+.select-css 
+{
+    font-size: 20px;
+    height: 30px;
+    width: 200px;
+    margin: 0;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+    border-radius: .5em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #efefef;
+    color: #666;
+}
+
+.select-css::-ms-expand 
+{
+    display: none;
+}
+.select-css:hover 
+{
+    border-color: #888;
+}
+.select-css:focus 
+{
+    border-color: #aaa;
+    box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+    box-shadow: 0 0 0 3px -moz-mac-focusring;
+    color: #222; 
+    outline: none;
+}
+.select-css option
+{
+    font-weight: normal;
+}
+
+a.tilelink
+{
+   color: #ffffff; 
+   text-decoration: none;
+   display:block;
+   width: 230px; 
+   height: 142px; 
+}
+
+.button_log
+{
+	width: 350px;
+    height: 40px;
+	background-color: #efefef;
+	color: #666;
+	border: 2px solid #ddd;
+	border-radius: .5em;
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+	margin-top: 10px;
+    cursor: pointer;
+}
+
+.button_reg
+{
+  	width: 350px;
+    height: 40px;
+	background-color: #556B2F;
+    color:antiquewhite;
+	border: 2px solid #ddd;
+	border-radius: .5em;
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+	margin-top: 10px;  
+    cursor: pointer;
+
+}
+
+input[type=number],
+input[type=date]
+{
+    width: 200px;
+    height: 30px;
+	background-color: #efefef;
+	color: #666;
+	border: 2px solid #ddd;
+	border-radius: .5em;
+	font-size: 20px;
+	padding: 5px;
+	box-sizing: border-box;
+	outline: none;
+	margin-top: 5px;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=number]:focus,
+input[type=date]:focus
+
+{
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	-moz-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	border: 2px solid #a5cda5;
+	background-color: #e9f3e9;
+	color: #428c42;
+}
+
+.text_field
+{
+    width: 200px;
+    height: 30px;
+	background-color: #efefef;
+	color: #666;
+	border: 2px solid #ddd;
+	border-radius: .5em;
+	font-size: 20px;
+	padding: 5px;
+	box-sizing: border-box;
+	outline: none;
+	margin-top: 5px;
+
+}
+
+.button_add
+{
+    width: 100px;
+    height: 35px;
+    text-align:center;
+	background-color: #36b03c;
+	font-size:20px;
+	color: white;
+	padding: 10px 5px;
+	margin-top: 15px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none;
+}
+
+.button_cancel
+{
+   	width: 100px;
+    height: 35px;
+	background-color:crimson;
+	font-size:20px;
+	color: white;
+	padding: 10px 5px;
+	margin-top: 15px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none; 
+}
+
+.row
+{
+	margin: 10px 10px;
+}
+
+.buttons_position
+{
+    margin-left: 300px;
+    margin-top: 150px;
+}
+
+.row > label
+{
+    color: azure;
+}
+
+input[type=submit]:focus
+{
+	-webkit-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+	-moz-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+	box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+}
+
+input[type=submit]:hover
+{
+	background-color: #37b93d;
+}
+
+input[type=reset]:hover
+{
+	background-color: brown;
+}
+
+input::-webkit-input-placeholder
+{
+    color: #999;
+}
+input:focus::-webkit-input-placeholder
+{
+    color: #428C42;
+}
+/* Firefox < 19 */
+input:-moz-placeholder
+{
+    color: #999;
+}
+input:focus:-moz-placeholder
+{
+    color: #428C42;
+}
+/* Firefox > 19 */
+input::-moz-placeholder
+{
+    color: #999;
+}
+input:focus::-moz-placeholder
+{
+    color: #428C42;
+}
+/* Internet Explorer 10 */
+input:-ms-input-placeholder
+{
+    color: #999;
+}
+input:focus:-ms-input-placeholder
+{
+    color: #428C42;
+}
